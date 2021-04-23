@@ -1,5 +1,6 @@
 $primarycolor: lightcoral;
 $secondarycolor: lightcyan;
+$tertiarycolor: lightgreen;
 
 
 body {
@@ -7,6 +8,17 @@ body {
 
     h1 {
         text-align: center;
+        color: $primarycolor;
         background-color: $secondarycolor;
+    }
+    
+    p {
+        color: $primarycolor;
+        background-color: $secondarycolor;
+    }
+
+    button {
+        color: $primarycolor;
+        background-color: $tertiarycolor;
     }
 }
