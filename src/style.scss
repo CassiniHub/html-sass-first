@@ -1,0 +1,12 @@
+$primarycolor: lightcoral;
+$secondarycolor: lightcyan;
+
+
+body {
+    background-color: $primarycolor;
+
+    h1 {
+        text-align: center;
+        background-color: $secondarycolor;
+    }
+}
